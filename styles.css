@@ -1,0 +1,137 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+#mycartbtn{
+    background-color: rgb(12, 131, 31);
+    padding:10px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#Delivery{
+    font-family: 'Roboto', sans-serif;
+}
+#Delivery>p{
+    font-family: 'Roboto', sans-serif;
+}
+
+input{
+    border:transparent;
+    width:600px;
+    font-family: 'Roboto', sans-serif;
+}
+#loginbtn{
+    border:transparent;
+    font-family: 'Roboto', sans-serif;
+}
+.cards{
+   width:80vw;
+   margin:auto;
+}
+.scroll{
+    font-family: 'Roboto', sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x:scroll;
+}
+.scroll>img{
+    display: inline-block;
+}
+.cotegories{
+    width: 84vw;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.button{
+    font-family: 'Roboto', sans-serif;
+    border:1px solid green;
+    color:green;
+    border-radius: 5px;
+    padding:5px 20px;
+    font-weight: 600;
+}
+.mycard{
+    width:200px;
+    margin-right:20px;
+    display: inline-block !important;
+    margin-top: 20px;
+}
+.product-time{
+    background-color: #f8f8f8;
+    width:fit-content;
+    font-weight: 700px;
+}
+.footer1{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer_table1{
+    flex:2;
+}
+.footer_table2{
+  flex:3;
+}
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer2>p{
+    width:40%;
+    font-size: 15px;
+   color: #6a6a6a;
+}
+.downloads{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.social-links{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+footer{
+    margin:10px 80px;
+}
+.footer3{
+   font-size: 15px;
+   text-align:justify;
+   color: #6a6a6a;
+}
+.downloads>img{
+    margin-left:30px;
+}
+.downloads>p{
+    font-weight: 600;
+ font-family:'Roboto', sans-serif;
+}
+.social_icon{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-inline: 10px;
+}
+table{
+    width:100%;
+}
+@media screen and (max-width:768px) {
+    nav{
+        padding:40px;
+        flex-direction: column;
+    }
+    .searchbar{
+        width:90vw;
+    }
+    .searchbar>input{
+        width: auto;
+    }
+
+}
